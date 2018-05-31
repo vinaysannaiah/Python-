@@ -6,6 +6,10 @@ str = "get 1 all 2 the 3 numbers 4 in 5 a 6 string 7 as 8 a 9 list 10" # string 
 
 nums = list() # empty list
 
-nums = re.findall('[0-9]+', str) # look for the numbers in the string
+nums = re.findall('[0-9]+', str) # look for the numbers in the string 
+
+'''
+Note: to extract floating point numbers use: '[0-9.]+'
+'''
 
 print(nums) # print the numbers
