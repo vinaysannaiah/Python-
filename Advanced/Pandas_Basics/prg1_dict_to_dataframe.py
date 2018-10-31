@@ -7,6 +7,7 @@ my_dict = {
           "col3":[9,10,11,12],
           "col4":[13,14,15,16]
           }
+
 print(my_dict) # view the dictionary
 
 #convert dictionary into a dataframe
